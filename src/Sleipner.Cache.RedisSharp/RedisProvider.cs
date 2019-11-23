@@ -100,7 +100,8 @@ namespace Sleipner.Cache.Netcore.RedisSharp
             var cachedObject = new RedisObject<TResult>()
              {
                  Created = DateTime.Now,
-                 Object = data
+                 Object = data,
+          
              };
 
             var bytes = SerializeAndZip(cachedObject);

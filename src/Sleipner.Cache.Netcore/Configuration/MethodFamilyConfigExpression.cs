@@ -16,6 +16,8 @@ namespace Sleipner.Cache.Netcore.Configuration
         {
             _policy.CacheDuration = duration;
 
+            if (_policy.MaxAge == 0)
+                _policy.MaxAge = duration;
             return this;
         }
 
