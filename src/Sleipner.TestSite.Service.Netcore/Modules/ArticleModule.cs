@@ -24,7 +24,7 @@ namespace Sleipner.TestSite.Service.Netcore.Modules
                 proxy.Config(a =>
                 {
                     a.DefaultIs().CacheFor(10);
-                    a.For(x => x.GetArticleAsync(Param.IsAny<string>())).CacheFor(10);
+                    a.For(x => x.GetArticleAsync(Param.IsAny<string>())).CacheFor(30);
                 });
 
             builder.RegisterInstance(proxy.CreateCachedInstance()).As<IArticleService>().SingleInstance();

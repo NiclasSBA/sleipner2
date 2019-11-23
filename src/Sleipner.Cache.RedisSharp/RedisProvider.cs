@@ -42,7 +42,7 @@ namespace Sleipner.Cache.Netcore.RedisSharp
             if (redisItem != null)
             {
                 RedisObject<TResult> cacheItem;
-                using (var dataStream = new MemoryStream())
+                using (var dataStream = new MemoryStream(redisItem))
                 {
 
                     using (var zipstream = new GZipStream(dataStream, CompressionMode.Decompress))
