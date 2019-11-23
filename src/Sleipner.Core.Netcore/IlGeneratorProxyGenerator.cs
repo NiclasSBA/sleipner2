@@ -25,8 +25,9 @@ namespace Sleipner.Core.Netcore
                 Name = "Sleipner2CacheProxies",
             };
           
-            AssemblyBuilder.DefineDynamicAssembly(dynamicAssemblyName, AssemblyBuilderAccess.Run);
-            ModuleBuilder = AssemblyBuilder.DefineDynamicModule("Sleipner2CacheProxies.dll");
+           AssemblyBuilder =  AssemblyBuilder.DefineDynamicAssembly(dynamicAssemblyName, AssemblyBuilderAccess.Run);
+            ModuleBuilder = AssemblyBuilder.DefineDynamicModule( "Sleipner2CacheProxies.dll");
+          
         }
 
         public static Type CreateProxyFor<TInterface>() where TInterface : class

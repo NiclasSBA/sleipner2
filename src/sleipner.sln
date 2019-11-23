@@ -27,9 +27,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sleipner.Cache.MemcachedSha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sleipner.Core.Netcore", "Sleipner.Core.Netcore\Sleipner.Core.Netcore.csproj", "{4CA7FA8C-FB54-475A-93DE-5606D8FEFD62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sleipner.Cache.Netcore.RedisSharp", "Sleipner.Cache.RedisSharp\Sleipner.Cache.Netcore.RedisSharp.csproj", "{C9A8CD43-8933-46A8-B203-1BECB4689F7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sleipner.Cache.Netcore.RedisSharp", "Sleipner.Cache.RedisSharp\Sleipner.Cache.Netcore.RedisSharp.csproj", "{C9A8CD43-8933-46A8-B203-1BECB4689F7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sleipner.Cache.Netcore", "Sleipner.Cache.Netcore\Sleipner.Cache.Netcore.csproj", "{6458868A-3C76-44D0-BFA5-633664032141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sleipner.Cache.Netcore", "Sleipner.Cache.Netcore\Sleipner.Cache.Netcore.csproj", "{6458868A-3C76-44D0-BFA5-633664032141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleipnerTestSite.Netcore", "SleipnerTestSite.Netcore\SleipnerTestSite.Netcore.csproj", "{94A3BAE4-AEBC-4B34-8041-4F910DF4CCB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sleipner.TestSite.Service.Netcore", "Sleipner.TestSite.Service.Netcore\Sleipner.TestSite.Service.Netcore.csproj", "{54B343DC-32BF-47DC-A4BF-097D2BC7BD6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,14 @@ Global
 		{6458868A-3C76-44D0-BFA5-633664032141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6458868A-3C76-44D0-BFA5-633664032141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6458868A-3C76-44D0-BFA5-633664032141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A3BAE4-AEBC-4B34-8041-4F910DF4CCB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A3BAE4-AEBC-4B34-8041-4F910DF4CCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A3BAE4-AEBC-4B34-8041-4F910DF4CCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A3BAE4-AEBC-4B34-8041-4F910DF4CCB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B343DC-32BF-47DC-A4BF-097D2BC7BD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B343DC-32BF-47DC-A4BF-097D2BC7BD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B343DC-32BF-47DC-A4BF-097D2BC7BD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B343DC-32BF-47DC-A4BF-097D2BC7BD6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +110,8 @@ Global
 		{BD8B388E-75E3-43C4-B6A8-8961E696B708} = {23B79152-5788-434F-BD40-287E5390EB8D}
 		{A0DC63E0-582A-4525-9C10-291E08554E27} = {23B79152-5788-434F-BD40-287E5390EB8D}
 		{C5287969-F140-4D1E-B252-AC82CE9CE057} = {23B79152-5788-434F-BD40-287E5390EB8D}
+		{94A3BAE4-AEBC-4B34-8041-4F910DF4CCB2} = {23B79152-5788-434F-BD40-287E5390EB8D}
+		{54B343DC-32BF-47DC-A4BF-097D2BC7BD6B} = {23B79152-5788-434F-BD40-287E5390EB8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E03C635A-3507-423F-972B-B6A537764764}
